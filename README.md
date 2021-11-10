@@ -26,7 +26,7 @@ The SBUS protocol uses an inverted serial logic with a baud rate of 100000, 8 da
    * Byte[24]: SBUS footer (0x00)
  ```  
    
-Channels data is transferred to the 'CH' variable.
+Channels data is transferred to the `CH` variable.
 
 Tested with R7FG v1.2 and RC6GS v1. 
  
