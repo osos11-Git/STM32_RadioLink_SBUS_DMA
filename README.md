@@ -9,7 +9,7 @@ STM32CubeIDE v1.7.0
 
 HAL
 
-UART2 and DMA are used.
+UART2 with DMA .
 
 This code communicates with SBUS receiver. Only decoder. 
 ```
