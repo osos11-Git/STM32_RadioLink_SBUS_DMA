@@ -5,7 +5,7 @@ STM32F401CCU6 Blackpill
 
 STM32 F4 FW 1.26.2
 
-STM32CubeIDE v1.7.0
+STM32CubeIDE v1.16.0
 
 HAL
 
@@ -29,6 +29,7 @@ The SBUS protocol uses an inverted serial logic with a baud rate of 100000, 8 da
 Channels data is transferred to the `CH` variable.
 
 Tested with R7FG v1.2 and RC6GS v1. 
+Tested with R7FG v1.4 and RC6GS v3. 
  
 R7FG receiver will output a range of 170 - 1876 (neutral 1023) with channels set to a range of -100% to +100%. Using extended limits of -120% to +120% outputs a range of 0 to 2047, which is the maximum range acheivable with 11 bits of data.  
 
